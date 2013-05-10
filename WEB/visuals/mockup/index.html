@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>O'Connors LLP</title>
+
+<link href="css/mocks.css" type="text/css" rel="stylesheet" media="screen" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8">
+		$(function () {
+			var tabContainers = $('div.tabs > div');
+			tabContainers.hide().filter(':first').show();
+			
+			$('div.tabs ul.tabNavigation a').click(function () {
+				tabContainers.hide();
+				tabContainers.filter(this.hash).show();
+				$('div.tabs ul.tabNavigation a').removeClass('selected');
+				$(this).addClass('selected');
+				return false;
+			}).filter(':first').click();
+		});
+	</script>
+
+</head>
+<body>
+
+<div class="tabs">
+
+<ul class="tabNavigation">
+<li class=""><a href="#six">Home Slide 1</a></li>
+    <li class=""><a href="#one">Home Slide 2</a></li>
+    <li class=""><a href="#two">Home Mobile</a></li>
+    <li class=""><a href="#seven">Home Mobile Menu</a></li>
+    <li class=""><a href="#three">Who we are</a></li>
+    <li class=""><a href="#four">Who we are Mobile</a></li>
+    <li class=""><a href="#five">Corporate &amp; commercial advice</a></li>
+    <li class=""><a href="#eight">Support for law firms</a></li>
+    <li class=""><a href="#nine">How we work</a></li>
+    <li class=""><a href="#ten">Who we like</a></li>
+    <li class=""><a href="#eleven">News Main</a></li>
+    <li class=""><a href="#twelve">News Article</a></li>
+    <li class=""><a href="#thirteen">Albums</a></li>
+    <li class="last"><a href="#fourteen">Contact</a></li>
+    
+
+</ul>
+
+
+
+
+<div id="one">
+</div>
+
+<div id="two">
+</div>
+
+<div id="four">
+</div>
+
+<div id="three">
+</div>
+
+<div id="five">
+</div>
+
+<div id="six">
+</div>
+
+<div id="seven">
+</div>
+
+<div id="eight">
+</div>
+
+<div id="nine">
+</div>
+
+<div id="ten">
+</div>
+
+<div id="eleven">
+</div>
+<div id="twelve">
+</div>
+
+<div id="thirteen">
+</div>
+
+<div id="fourteen">
+</div>
+
+<div id="fifteen">
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+
+body,td,th {
+	font-family: Arial, MS Sans Serif;
+	font-size: 11px;
+	color: #fff;
+	margin:0;
+	padding: 0;
+	text-align:center;
+}
+a {
+	font-size: 14px;
+	color: #5073B1;
+	text-align:center;
+}
+ul {
+    list-style: none outside none;
+    margin: 0 0 0 32px;
+    padding: 0;
+	text-align:center;
+}
+
+ul li {
+    border-left: 5px solid #ECECEC;
+    margin: 0 0 8px;
+    padding: 0 0 0 8px;
+}
+
+a {
+    color: #FF2B06;
+    font-size: 14px;
+	padding-top: 10px;
+}
+
+a:hover {
+    color: #000;
+}
+
+h1 {
+    background: none repeat scroll 0 0 #ECECEC;
+    display: block;
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin: 0 0 10px;
+    padding: 32px;
+	color: #FF2B06;
+	text-align: left;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover, a.selected {
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+}
+
+ul.tabNavigation {
+	 border-bottom: 2px solid #FF2B06;
+	padding: 15px 0 15px 32px;
+	margin: 0;
+	text-align: center;	
+}
+
+ul.tabNavigation li {
+	display: inline;padding-right: 5px;
+	margin-right: 2px;
+}
+
+ul.tabNavigation li.last {
+	border-right: 0;
+}
+
+div.tabs div {
+	width: 100%;
+}
+
+
+div.tabs div#one {
+	width: 100%;
+	height: 1646px;
+	background: url(../01_homepage.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+div.tabs div#two {
+	width: 100%;
+	height: 1896px;
+	background: url(../01_homepage_mobile.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+
+div.tabs div#three {
+	width: 100%;
+	height: 1800px;
+	background: url(../02_whoweare.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#four {
+	width: 100%;
+	height: 3436px;
+	background: url(../02_whoweare_mobile.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+
+div.tabs div#five {
+	width: 100%;
+	height: 1071px;
+	background: url(../03_corporate-and-commercial-advice.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+
+div.tabs div#six {
+	width: 100%;
+	height: 1646px;
+	background: url(../01_homepage_2.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+
+div.tabs div#seven {
+	width: 100%;
+	height: 2200px;
+	background: url(../01_homepage_mobile_menu.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#eight {
+	width: 100%;
+	height: 2100px;
+	background: url(../04_support-for-law-firms.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#nine {
+	width: 100%;
+	height: 1640px;
+	background: url(../05_how-we-work.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#ten {
+	width: 100%;
+	height: 1660px;
+	background: url(../06_who-we-like.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#eleven {
+	width: 100%;
+	height: 1800px;
+	background: url(../07_news.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#twelve {
+	width: 100%;
+	height: 962px;
+	background: url(../07_news-article.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#thirteen {
+	width: 100%;
+	height: 1800px;
+	background: url(../08_albumcovers.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#fourteen {
+	width: 100%;
+	height: 1736px;
+	background: url(../09_contact.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+div.tabs div#fifteen {
+	width: 100%;
+	height: 1640px;
+	background: url(../05_how-we-work.jpg) no-repeat top center;
+	display: block;
+	margin: 0 auto;
+}
+
+
